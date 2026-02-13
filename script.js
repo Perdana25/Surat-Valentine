@@ -3,22 +3,22 @@ const config = {
     // Sequence of questions
     questions: [
         {
-            text: "First, our anniversary date? 🗓️",
-            answers: ["120923", "12/09/23"], // Date formats
-            hint: "Hint: DDMMYY 👀"
+            text: "Tanggal Jadian kita? 🗓️",
+            answers: ["211224", "21/12/24"], // Date formats
+            hint: "Hint: tanggal, bulan, tahun (260305) 👀"
         },
         {
-            text: "What is the nickname I gave you? 🐻",
-            answers: ["sayang", "bear", "baby", "love"], // Edit this!
-            hint: "Hint: cute animal? 😉"
+            text: "Apa nama panggilan yang sayang kasih ke dana? 🐻",
+            answers: ["sayang", "ndut", "aneh"], // Edit this!
+            hint: "Hint: kebanyakan makan atau kelakuan yang tidak biasa? 😉"
         },
         {
             text: "Will you be my Valentine? 🌹",
             answers: ["yes", "yes i do", "of course", "yess", "ya", "mau"],
-            hint: "Hint: Say yes! ❤️"
+            hint: "Hint: katakan yes atau ya! ❤️"
         }
     ],
-    redirectUrl: "https://github.com/", // Change this to your diary URL
+    redirectUrl: "https://perdana25.github.io/cerita-kita/", // Change this to your diary URL
     maxAttempts: 3 // Attempts per question before showing angry message
 };
 
@@ -194,3 +194,4 @@ function createHeartRain() {
         }, 5000);
     }, 300);
 }
+
