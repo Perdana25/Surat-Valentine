@@ -4,7 +4,7 @@ const config = {
     questions: [
         {
             text: "Tanggal Jadian kita? 🗓️",
-            answers: ["211224", "21/12/24"], // Date formats
+            answers: ["221224", "22/12/24"], // Date formats
             hint: "Hint: tanggal, bulan, tahun (260305) 👀"
         },
         {
@@ -194,4 +194,5 @@ function createHeartRain() {
         }, 5000);
     }, 300);
 }
+
 
